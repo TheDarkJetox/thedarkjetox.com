@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/tdj_background.png");
+    background-repeat: no-repeat;
+    height: auto;
+	width: 100%;
+	font-size: 100%;
+}
+
+.banner {
+	background: url("../images/tdj_header.png");
+	height: auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
+.footer {
+	background: url("../images/tdj_header.png");
+    margin: auto;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #cccccc;
+    text-align: center;
+	padding: 6px;
+}
+
+.title-bg {
+	width: 80%;
+    overflow: auto;
+    text-align: left;
+    margin: 15px 0 5px 0;
+    background-color: rgba(255, 255, 255, 0.45);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	padding: 6px 20px;
+}
+
+.back-center {
+    text-align: left;
+    margin: 5px 0;
+    background-color: rgba(255, 255, 255, 0.45);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	padding: 6px 20px;
+}
+
+ul li {
+	padding: 0px 10px;
+	text-align: right;
+}
+
+.logo {
+	text-shadow: -1px 1px 0px #24D529;
+	font-size: 40px;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0 0;
+}
+
+.logo:hover {
+	text-decoration: none !important;
+}
+
+.navbar-header {
+	width: 30%;
+	margin: 1%;
+	padding: 0px 0px;
+	text-align: left;
+}
+
+.row .field .col-sm-4 {
+	padding: 2px 15px;
+}
+
+
+@media only screen and (max-width: 479px) {
+   .mobile-hide{ display: none !important; }
+   h1, h2, h3, h4, h5 {font-size: 100%; padding: .5%; margin: 0;}
+   .logo {font-size: 120%; padding-left: 4% ; margin: 0;}
+   .title-bg {left: 10%;}
+}
+
+ 
