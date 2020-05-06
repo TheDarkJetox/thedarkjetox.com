@@ -1,6 +1,6 @@
 <?php
 
-require_once('core/init.php');
+/*require_once('core/init.php');
 
 
 
@@ -9,7 +9,7 @@ if(isset($_SESSION['username']) . isset($_SESSION['userID'])){
 } else {
 	$_SESSION['userType'] = '';
 }
-
+*/
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -103,10 +103,9 @@ if(isset($_SESSION['username']) . isset($_SESSION['userID'])){
 		<div class="row">
 			<div class="col-sm-12 title-bg">
 				<h1>Page Not Found!</h1>
+				<br>
 				Sorry, but we were not able to find the page you were looking for. <br>
-				Please check the URL or start over on the <a class="text-dark" href="/">startpage</a>.
-				<br><br>
-				There also might also be a possibility that the page you are looking for has been moved elsewhere. 
+				Please check the URL or start over on the <a href="/">startpage</a>.
 			</div>
 		</div>
 	</div>

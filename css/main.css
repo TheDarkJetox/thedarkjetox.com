@@ -1,87 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html{
+    min-height: 100%;
+}
+
+.banner{
+	width: 100%;
+	height: auto;
+	display: inline;
+	
+}
+
 body {
     background-image: url("../images/tdj_background.png");
     background-repeat: no-repeat;
-    height: auto;
-	width: 100%;
-	font-size: 100%;
+    background-attachment: fixed;
+	background-size: 100% 100%;
 }
 
-.banner {
-	background: url("../images/tdj_header.png");
-	height: auto;
-	width: 100%;
-	background-repeat: no-repeat;
-	padding: 0;
-	margin: 0;
+ol, ul {
+    list-style: none;
+}
+
+body{
+    background-color: white;
+}
+
+body div {
+	padding: 0px 10px 10px 10px;
+}
+
+#style{
+    float: right;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2{
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color: white;
+}
+
+nav ul li {
+	background: #000;
+	background-position: fixed;
+	clear: both;
+	display: inline;
+	padding: 5px 10px 0px 10px;
+	
+}
+
+p {
+
+    overflow: auto;
+    text-align: left;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.45);
+	background-position: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	padding:  10px;
+}
+
+.textbg {
+    overflow: none;
+    text-align: left;
+    margin: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-position: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer {
-	background: url("../images/tdj_header.png");
     margin: auto;
 	position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #383838;
     color: #cccccc;
     text-align: center;
-	padding: 6px;
+	padding: 10px;
 }
 
-.title-bg {
-	width: 80%;
-    overflow: auto;
-    text-align: left;
-    margin: 15px 0 5px 0;
-    background-color: rgba(255, 255, 255, 0.45);
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-	padding: 6px 20px;
+.ulstyle li a {
+    line-height: 50px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
-.back-center {
-    text-align: left;
-    margin: 5px 0;
-    background-color: rgba(255, 255, 255, 0.45);
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-	padding: 6px 20px;
+@media screen only and (max-width: 1366px) {
+    .mainbox {
+        width: 80%;
+    }
+
+    .banner {
+        width: 80%;
+    }
+
+    .ulstyle {
+        width: 80%;
+    }
 }
 
-ul li {
-	padding: 0px 10px;
-	text-align: right;
+.text {
+	background-position: center;
+    padding:  0px 10px 30px 10px;
+    text-shadow: .01px .01px .01px #555;
 }
 
-.logo {
-	text-shadow: -1px 1px 0px #24D529;
-	font-size: 40px;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0 0;
+.border {
+    margin: none;
+    padding: 10px 10px 10px 10px;
+}
+.text-warning, .text-success, .text-danger {
+    text-shadow: .5px .5px .5px #000;
+   
 }
 
-.logo:hover {
-	text-decoration: none !important;
+.row {
+    padding: 0px 10px 0px 10px;
 }
 
-.navbar-header {
-	width: 30%;
-	margin: 1%;
-	padding: 0px 0px;
-	text-align: left;
+.navbar, .btn-dark, .dropdown-menu {
+    background-color: #383838;
 }
-
-.row .field .col-sm-4 {
-	padding: 2px 15px;
-}
-
-
-@media only screen and (max-width: 479px) {
-   .mobile-hide{ display: none !important; }
-   h1, h2, h3, h4, h5 {font-size: 100%; padding: .5%; margin: 0;}
-   .logo {font-size: 120%; padding-left: 4% ; margin: 0;}
-   .title-bg {left: 10%;}
-}
-
- 
