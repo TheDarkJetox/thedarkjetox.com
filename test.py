@@ -1,4 +1,4 @@
-#!/python
+#!"C:\python"
 # -*- coding: UTF-8 -*-
 
 # enable debugging
