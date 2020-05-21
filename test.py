@@ -1,8 +1,11 @@
 #!/python
-print "Content-type: text/html"
+# -*- coding: UTF-8 -*-
+
+# enable debugging
+import cgitb
+cgitb.enable()
+
+print "Content-Type: text/plain;charset=utf-8"
 print
-print "<html><head>"
-print ""
-print "</head><body>"
-print "Hello."
-print "</body></html>"
+
+print "Hello World!"
